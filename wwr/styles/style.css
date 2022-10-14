@@ -1,18 +1,17 @@
 body {
-    backround-color: #bdbea9;
+    background-color: #bdbea9;
 }
-<div id="margin: 0 auto;">
-max-width 1600px
+#content { 
+    max-width: 1600px;
+    margin: 0 auto; 
+}
 header  {
-    backround-color:   #714632 ;
+    background-color:   #714632 ;
 } 
-    </footer>
-</div>
-</body>
-
 nav a {
     text-decoration: none;
     text-align: center;
+    color: #fbfbfc;
 }
 nav a:hover {
     text-decoration: none;
@@ -21,18 +20,17 @@ nav a:hover {
     color: #d9c2a3;
 }
 .home-title {
-    text-decoration: none;
     text-align: center;
+    text-decoration: none;
     background-color: black;
     color: #d9c2a3;
 }    
 #hero-msg h1, #hero-msg h4 {
-    width: 80px;
-    text-decoration: none;
     text-align: center;
+    text-decoration: none;
     background-color: black;
     color: #d9c2a3;
-}
+}          
 .button-box {
     text-align: center;
     text-decoration: none;
@@ -40,28 +38,24 @@ nav a:hover {
     color: #d9c2a3;
 }
 main section {
+    text-align: center;
     text-decoration: none;
     background-color: black;
     color: #d9c2a3;
-    text-align: center;
 }
-<section class="rapids-card">
-    <img class="card-img" src="images/rapids.jpg" alt="rafting boat">
-    <img class="icon" src="images/oars.png" alt="oars icon">
-    <h2>Rapids</h2>
-</section>
-<div> #background {
+ #background {
     height: 725px;
 }
-<footer p> {
+.book, .join {
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+}
+footer a {
+    text-align: center;
+    color: #030303;
+    text-decoration: none;
+} 
+footer p {
     font-size: 1.2em;
-    text-decoration: underline;
-}    
-</footer>
-<div id="background"></div> 
-<img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
-<section class="msg">
-    <h2>More Than Just The Thrill</h2>
-    <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors. </p>
-    <a class='join' href="rivers.html">Join Us</a>
-</section>text-decoration: none;
+}
