@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway:ital,wght@1,300&display=swap');
 body {
     background-color: #bdbea9;
+    font-family: 'Oswald', 'Raleway';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 #content { 
     max-width: 1600px;
@@ -13,6 +20,7 @@ nav a {
     text-decoration: none;
     text-align: center;
     color: #fbfbfc;
+    padding: 35px;
 }
 nav a:hover {
     text-decoration: none;
@@ -25,6 +33,9 @@ nav a:hover {
     text-decoration: none;
     background-color: black;
     color: #d9c2a3;
+    font-family: 'Oswald', 'Raleway';
+    font-size: 2em;
+    margin-top: 10px;
 }    
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -47,16 +58,68 @@ main section {
  #background {
     height: 725px;
 }
+#logo_link {
+    padding-top: 5px;
+}
 .book, .join {
     text-decoration: none;
     text-align: center;
     background-color: black;
+    font-family: 'Oswald', 'Raleway';
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+.icon {padding-top: 10px;
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+}
+.msg {
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    font-family: 'Oswald', 'Raleway';
+    font-size: .8em;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg p {
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    font-family: 'Oswald', 'Raleway';
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+main section img {
+    box-sizing: border-box;
+}
+footer {   
+    margin-top: 200px;
 }
 footer a {
     text-align: center;
     color: #030303;
     text-decoration: none;
+    padding: 25px 50px;
 } 
 footer p {
     font-size: 1.2em;
+}
+footer .social img {
+    padding-top: 15px;
 }
