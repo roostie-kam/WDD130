@@ -169,10 +169,8 @@ footer {
     align-items: center;
 }
 footer a {
-    text-align: center;
     color: #030303;
     text-decoration: none;
-    padding: 25px 50px;
 } 
 footer p {
     font-size: 1.2em;
@@ -180,7 +178,6 @@ footer p {
 footer .social img {
     padding-top: 15px;
 }
-
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
