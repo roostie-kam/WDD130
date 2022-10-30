@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #56876D;
+  --primary-color: #56876D   ;
   --secondary-color: #714632 ;
-  --accent1-color: #bdbea9;
-  --accent2-color: #8DB38B;
+  --accent1-color: #bdbea9   ;
+  --accent2-color: #8DB38B   ;
 
   /* change the values below to your chosen font(s) */
   --heading-font: 'Raleway';
