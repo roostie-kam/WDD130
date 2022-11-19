@@ -178,6 +178,8 @@ footer p {
 footer .social img {
     padding-top: 15px;
 }
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
