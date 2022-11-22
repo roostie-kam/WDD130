@@ -13,7 +13,7 @@ h2 {
     max-width: 1600px;
     margin: 0 auto; 
 }
-header  {
+header {
     display: grid;
     grid-template-columns: 150px auto;
     background-color:   #714632 ;
@@ -155,7 +155,6 @@ main section {
     margin: 200px 0;
     margin: 100px;
     width: 60%;
-
 }
 main section img {
     box-sizing: border-box;
@@ -178,8 +177,22 @@ footer p {
 footer .social img {
     padding-top: 15px;
 }
-
-
+h2 {
+    margin: 0;
+}
+h2 {
+    margin: 0;
+}
+.rivers-card {
+    margin: 200px 0;
+    grid-column: 8/10;
+    grid-row: 2/3;  
+}
+.rapids-card {
+    margin: 200px 0;
+    margin: 100px;
+    width: 60%;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
