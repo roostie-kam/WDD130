@@ -24,9 +24,7 @@ Fonts are separated by a & */
   --nav-hover-link-color: #8DB38B;
   --nav-hover-background-color: #714632;
 }
-
 /*  Look around below...but DON'T CHANGE ANYTHING! */
-
 body {
   max-width: 960px;
   margin: 0 auto;
