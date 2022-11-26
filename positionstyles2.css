@@ -1,0 +1,59 @@
+/* CSS - Name: "positionstyles2.css" */
+/* Activity 2 styles */
+/* This is the parent of the activity 2. */
+
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 50% 20% 20% 20% 20%;
+    grid-template-columns: repeat(8, 12.5%);
+    grid-template-columns: 100px 3em 40% 22% 25%;
+    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 50px repeat(3, 1fr) 50px;
+    grid-template-columns: 75px 3fr 2fr;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-rows: 50px 0 0 0 1fr;
+    grid-template: 60% / 200px;
+}
+#water {
+    grid-column: 1/6;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-column-end: 2;
+    grid-column-end: 5;
+    grid-column-end: 4;
+    grid-column-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-column: 4/6;
+    grid-column: 2/5;
+    grid-row: 3/6;
+    grid-column: 2/6;
+    grid-row: 1/6;
+    grid-area: 1/2/4/6;
+    grid-column: 1;
+    grid-row: 1;
+    grid-column: 1 / 6;
+    grid-row: 5 / 6;
+    grid-column: 1;
+    grid-row: 1;
+}
+#water-1 {
+    grid-area: 1 / 4 / 6 / 5;
+}
+#water-2 {
+    grid-area: 2/3/5/6;
+}
+.water {
+    order: 0;
+}
+.poison{
+    grid-row: 1/1;
+}
+#poison {
+    grid-column: 5/5;
+    grid-column: 4/5;
+    grid-column: 2/2;
+    grid-row: 5/5;
+    grid-area: 1/5
+}   
