@@ -1,0 +1,19 @@
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+* {
+    border: 2px solid blue;
+}
+body {
+    text-align: center;
+}
+nav, footer {
+    text-align: center;
+}
+main p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}

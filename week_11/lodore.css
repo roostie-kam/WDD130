@@ -1,0 +1,49 @@
+section {
+    width: 50%;
+    border: 1px solid;
+  }
+  #p1 {
+    text-align: center;
+  }
+  #p2 {
+    text-align: right;
+  }
+  #p3 {
+    text-align: left;
+  }
+  #p4 {
+    text-align: center;
+  }
+  #p5 {
+   text-align: center; 
+  }
+  #p6 {
+    text-align: left;
+  }
+  #p7 {
+    text-align: center;
+  }
+  #p8 {
+    text-align: right;
+  }
+  #p9 {
+    text-align: right;
+  }
+  #p10 {
+    text-align: center;
+  }
+  #p11 {
+    text-align: left;
+  }
+  #p12 {
+    text-align: left;
+  }
+  .block2 {
+    margin: 0 auto;
+  }
+  .block3 {
+    margin-left: auto;
+  }
+  .block4 {
+    margin: auto;
+  }
