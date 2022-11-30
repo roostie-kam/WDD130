@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway:ital,wght@1,300&display=swap');
 body {
     background-color: #BDBEA9;
-    font-family: 'Oswald', 'Raleway';
+    font-family: 'Raleway', 'Oswald';
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -39,7 +39,7 @@ nav a:hover {
     text-decoration: none;
     background-color: black;
     color: #D9C2A3;
-    font-family: 'Oswald', 'Raleway';
+    font-family: 'Raleway', 'Oswald';
     font-size: 2em;
     margin-top: 10px;
 }
@@ -91,7 +91,7 @@ main section {
     text-decoration: none;
     text-align: center;
     background-color: black;
-    font-family: 'Oswald', 'Raleway';
+    font-family: 'Raleway', 'Oswald';
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
@@ -125,7 +125,7 @@ main section {
     text-decoration: none;
     text-align: center;
     background-color: black;
-    font-family: 'Oswald', 'Raleway';
+    font-family: 'Raleway', 'Oswald';
     font-size: .8em;
     line-height: 1.5em;
     padding: 35px;
@@ -135,7 +135,7 @@ main section {
     text-decoration: none;
     text-align: center;
     background-color: black;
-    font-family: 'Oswald', 'Raleway';
+    font-family: 'Raleway', 'Oswald';
     font-size: .8em;
     padding-bottom: 15px;
 }
