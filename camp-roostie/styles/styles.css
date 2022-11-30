@@ -15,7 +15,7 @@ h2 {
 }
 header {
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: auto 150px;
     background-color:   #714632 ;
 }
 nav {
@@ -268,7 +268,7 @@ margin-left: 0.5em;
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
+    .mountains-card, .camping-card, .tents-card { 
         margin: 50px auto;
         width: 60%;
     }
