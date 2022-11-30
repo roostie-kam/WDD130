@@ -16,7 +16,7 @@ h2 {
 header {
     display: grid;
     grid-template-columns: auto 150px;
-    background-color:   #714632 ;
+    background-color:   #714633 ;
 }
 nav {
     display: flex;
@@ -32,13 +32,13 @@ nav a:hover {
     text-decoration: none;
     text-align: center;
     background-color: black;
-    color: #d9c2a3;
+    color: #D9C2A3;
 }
 .home-title {
     text-align: center;
     text-decoration: none;
     background-color: black;
-    color: #d9c2a3;
+    color: #D9C2A3;
     font-family: 'Oswald', 'Raleway';
     font-size: 2em;
     margin-top: 10px;
@@ -57,7 +57,7 @@ nav a:hover {
     text-align: center;
     text-decoration: none;
     background-color: black;
-    color: #d9c2a3;
+    color: #D9C2A3;
 }
 #hero-box {
     grid-column: 1/4;
@@ -68,13 +68,13 @@ nav a:hover {
     text-align: center;
     text-decoration: none;
     background-color: black;
-    color: #d9c2a3;
+    color: #D9C2A3;
 }
 main section {
     text-align: center;
     text-decoration: none;
     background-color: black;
-    color: #d9c2a3;
+    color: #D9C2A3;
 }
 #background {
     height: 725px;
@@ -101,7 +101,7 @@ main section {
     width: 100%;
     border: 10px solid #d9c2a3;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #6F7364;
 }
 .card-img:hover {
     opacity: .6;
@@ -111,11 +111,11 @@ main section {
     width: 100%;
     grid-column: 2/7;
     grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;  
+    box-shadow: 5px 5px 10px #6F7364;  
 }
 .icon {padding-top: 10px;
     text-decoration: none;
-    color: #fcfbfb;
+    color: #FCFBFB;
     text-align: center;
     grid-column: 2/7;
     width: 80px;
@@ -125,22 +125,22 @@ main section {
     text-decoration: none;
     text-align: center;
     background-color: black;
-    font-family: 'Oswald', 'Raleway';
+    font-family: 'Raleway', 'Oswald';
     font-size: .8em;
     line-height: 1.5em;
     padding: 35px;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #6F7364;
 }
 .msg p {
     text-decoration: none;
     text-align: center;
     background-color: black;
-    font-family: 'Oswald', 'Raleway';
+    font-family: 'Raleway', 'Oswald';
     font-size: .8em;
     padding-bottom: 15px;
 }
 footer {
-    background-color: #6f7364;
+    background-color: #6F7364;
     padding: 25px 50px;
     margin-top: 200px; 
     display: flex;
