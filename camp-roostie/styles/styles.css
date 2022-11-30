@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway:ital,wght@1,300&display=swap');
 body {
-    background-color: #BDBE88;
-    font-family: 'Raleway', 'Oswald';
+    background-color: #BDBEA9;
+    font-family: 'Oswald', 'Raleway';
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -15,8 +15,8 @@ h2 {
 }
 header {
     display: grid;
-    grid-template-columns: auto 150px;
-    background-color:   #714633 ;
+    grid-template-columns: 150px auto;
+    background-color:   #714632 ;
 }
 nav {
     display: flex;
@@ -99,7 +99,7 @@ main section {
 }
 .card-img {
     width: 100%;
-    border: 10px solid #d9c2a3;
+    border: 10px solid #D9C2A3;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6F7364;
 }
@@ -125,7 +125,7 @@ main section {
     text-decoration: none;
     text-align: center;
     background-color: black;
-    font-family: 'Raleway', 'Oswald';
+    font-family: 'Oswald', 'Raleway';
     font-size: .8em;
     line-height: 1.5em;
     padding: 35px;
@@ -135,7 +135,7 @@ main section {
     text-decoration: none;
     text-align: center;
     background-color: black;
-    font-family: 'Raleway', 'Oswald';
+    font-family: 'Oswald', 'Raleway';
     font-size: .8em;
     padding-bottom: 15px;
 }

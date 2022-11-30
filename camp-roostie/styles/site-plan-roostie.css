@@ -11,8 +11,8 @@ Fonts are separated by a | */
   --accent2-color: #8DB38B   ;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: 'san-serif';
-  --paragraph-font: Helvetica, Oswald, Raleway;
+  --heading-font: 'Raleway';
+  --paragraph-font: Helvetica, Oswald, san-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #396E94;  /* headlines on a white background */ 
