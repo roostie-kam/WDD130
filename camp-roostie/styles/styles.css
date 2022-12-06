@@ -24,13 +24,13 @@ nav {
 }              
 nav a {
     text-decoration: none;
-    text-align: right;
+    text-align: center;
     color: #FBFBFC;
     padding: 35px;
 }
 nav a:hover {
     text-decoration: none;
-    text-align: right;
+    text-align: center;
     background-color: black;
     color: #D9C2A3;
 }
