@@ -15,8 +15,13 @@ h2 {
 }
 header {
     display: grid;
-    grid-template-columns: 148px auto;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 10px;
     background-color:   #714631 ;
+}
+#logo_link {
+    grid-column: 1/2;
+    width: 100%;
 }
 nav {
     display: flex;
