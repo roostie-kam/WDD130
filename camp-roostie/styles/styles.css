@@ -53,6 +53,9 @@ nav a:hover {
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px; 
 }
+#hero-img {
+    width: 80%;
+}
 #hero-msg {
     grid-column: 1/2;
     grid-row: 1/3;
