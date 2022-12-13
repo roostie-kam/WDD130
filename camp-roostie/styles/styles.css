@@ -14,22 +14,18 @@ h2 {
     max-width: 1600px;
     margin: 0 auto; 
 }
-header {
+header {    
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 10px;
     background-color:   #714631 ;
+    padding: 0 10px;
 }
 #logo_link {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
     grid-column: 1/2;
-}
-#logo_link1 {
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
 }
 .Camp-Roostie {
     width: 100%
@@ -106,6 +102,10 @@ main section img {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
+.tutorials-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
 #background1 {
     height: 725px;
     display: none;
@@ -142,8 +142,17 @@ main section img {
 }
 .book {
     text-align: center;
+    text-shadow: 1px 1px #eee;
+    color: #D9C2A3;
     width: 70px;
     border-radius: 5px;
+}
+.join {
+    text-shadow: 1px 1px #eee;
+    text-align: center;
+    width: 70px;
+    border-radius: 5px;
+    color: #D9C2A3;
 }
 .tutorials-img {
     width: 75% ;
@@ -189,6 +198,19 @@ main section img {
     border: 10px solid #D9C2A3;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6F7364;
+}.card-img6 {
+    margin-top: 15px;
+    width: 80%;
+    border: 10px solid #D9C2A3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6F7364;
+}
+.card-img7 {
+    margin-top: 15px;
+    width: 80%;
+    border: 10px solid #D9C2A3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6F7364;
 }
 .card-img1:hover {
     opacity: .6;
@@ -207,6 +229,14 @@ main section img {
     transform: scale(1.1);
 }
 .card-img5:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+.card-img6:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+.card-img7:hover {
     opacity: .6;
     transform: scale(1.1);
 }
@@ -314,19 +344,19 @@ main section img {
     box-shadow: 5px 5px 10px #6F7364;
 }
 .msg3 {
-    grid-column: 2/6;
+    grid-column: 1/6;
     grid-row: 4/5;
     text-align: center;
     background-color: black;
     font-family: 'Raleway', 'Oswald';
     font-size: .8em;
-    line-height: 1.5em;
+    line-height: 1.4em;
     padding: 35px;
     box-shadow: 5px 5px 10px #6F7364;
 }
 .msg4 {
-    grid-column: 2/3;
-    grid-row: 2/9;
+    grid-column: 5/9;
+    grid-row: 8/9;
     text-align: center;
     background-color: black;
     font-family: 'Raleway', 'Oswald';
@@ -343,34 +373,44 @@ main section img {
     padding-bottom: 15px;
 }
 .mountains-card {
-margin: 150px 0;
-grid-column: 2/4;
-grid-row: 2/3;  
+    margin: 150px 0;
+    grid-column: 2/4;
+    grid-row: 2/3;  
 }
 .camping-card {
-margin: 150px 0;
-grid-column: 5/7;
-grid-row: 2/3;  
+    margin: 150px 0;
+    grid-column: 5/7;
+    grid-row: 2/3;  
 }
 .tents-card {
-margin: 150px 0;
-grid-column: 8/10;
-grid-row: 2/3;  
+    margin: 150px 0;
+    grid-column: 8/10;
+    grid-row: 2/3;  
 }
 .education1-card {
-margin: 150px 0;
-grid-column: 2/4;
-grid-row: 2/3;  
+    margin: 150px 0;
+    grid-column: 2/4;
+    grid-row: 2/3;  
 }
 .education2-card {
-margin: 150px 0;
-grid-column: 8/10;
-grid-row: 2/3;  
+    margin: 150px 0;
+    grid-column: 8/10;
+    grid-row: 2/3;  
 }
-.tutorials-card {
-margin: 150px 0;
-grid-column: 2/4;
-grid-row: 2/3;  
+.tutorials-card1 {
+    margin: 150px 0;
+    grid-column: 2/4;
+    grid-row: 2/3;  
+}
+.tutorials-card2 {
+    margin: 150px 0;
+    grid-column: 5/7;
+    grid-row: 2/3;  
+}
+.tutorials-card3 {
+    margin: 150px 0;
+    grid-column: 8/10;
+    grid-row: 2/3;  
 }
 .Cabin-img {
     width: 100%;
@@ -383,6 +423,16 @@ grid-row: 2/3;
     grid-row: 3/6;
 }
 .kings-img {
+    width: 100%;
+    grid-column: 1/7;    
+    grid-row: 7/10;
+}
+.sign-img {
+    width: 100%;
+    grid-column: 5/10;    
+    grid-row: 3/6;
+}
+.summit-img {
     width: 100%;
     grid-column: 1/7;    
     grid-row: 7/10;
