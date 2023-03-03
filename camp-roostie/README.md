@@ -12,4 +12,4 @@ https://www.alltrails.com/trail/us/utah/alligator-lake-trail/photos 08/23/20; Ac
 The Kings Peak Hero image from the tutorials page is taken from: https://www.utah.com/destinations/cities-towns/vernal-dinosaurland/hiking/kings-peak/ Accessed 12/10/22.
 
 All of the photos of Payson or Santaquin Canyon were taken by me. 2018.
-Copywrite: Scott Kamerath 12/12/22.
+Copyright: Scott Kamerath 12/12/22.
